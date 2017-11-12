@@ -7,7 +7,7 @@ import Sidebar from '../components/base_components/Sidebar'
 
 Vue.use(Router)
 const router = new Router({
-  mode: history,
+  mode: 'history',
   routes: [
     {
       path: '/login',

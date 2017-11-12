@@ -1,8 +1,25 @@
 <template>
-  <div>
-    <h1>
-      Hello world
-    </h1>
+  <div class="sidebar">
+    <ul>
+      <li>
+        <div class="btn">Test</div>
+      </li>
+      <li>
+        <div class="btn">Test</div>
+      </li>
+      <li>
+        <div class="btn">Test</div>
+      </li>
+      <li>
+        <div class="btn">Test</div>
+      </li>
+      <li>
+        <div class="btn">Test</div>
+      </li>
+      <li>
+        <div class="btn">Test</div>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -23,18 +40,18 @@ export default {
 
 <style scoped lang="scss">
 @import "../../style/_variables.scss";
-
-.navbar {
-  background-color: $blue;
-  a {
-    color: $cream;
-    text-decoration: none;
-  }
-  button.navbar-toggler {
-    color: $cream;
-  }
-  .router-link-active {
-    color: $cream !important;
+.sidebar {
+  max-width: 85px;
+  width: 85px;
+  position: absolute;
+  height: 100%;
+  background-color: green;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  ul {
+    list-style: none;
+    padding: 0;
   }
 }
 </style>
