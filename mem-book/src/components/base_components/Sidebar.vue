@@ -45,13 +45,24 @@ export default {
   width: 85px;
   position: absolute;
   height: 100%;
-  background-color: green;
+  box-shadow: 0 0 2px steelblue;
   left: 0;
   top: 0;
   bottom: 0;
   ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    align-items: vertical;
+    .btn {
+      align-content: middle;
+      cursor: pointer;
+      width: 85%;
+      height: 80px;
+      margin: 2px auto;
+      border-radius: 4px;
+      border: 1px solid $blue;
+    }
   }
 }
 </style>
