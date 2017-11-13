@@ -19,6 +19,21 @@
       <li>
         <div class="btn">Test</div>
       </li>
+      <li>
+        <div class="btn">Test</div>
+      </li>
+      <li>
+        <div class="btn">Test</div>
+      </li>
+      <li>
+        <div class="btn">Test</div>
+      </li>
+      <li>
+        <div class="btn">Test</div>
+      </li>
+      <li>
+        <div class="btn">Test</div>
+      </li>
     </ul>
   </div>
 </template>
@@ -52,8 +67,12 @@ export default {
   ul {
     list-style: none;
     padding: 0;
-    display: flex;
     align-items: vertical;
+    height: 100%;
+    li {
+      height: min-content;
+      width: 100%;
+    }
     .btn {
       align-content: middle;
       cursor: pointer;
